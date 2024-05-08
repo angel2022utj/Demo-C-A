@@ -1,0 +1,55 @@
+<header>
+    <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg> C&A
+            </a>
+            <a class="nav-link d-md-none" href="#">
+                <i class="bi bi-cart2 text-light"></i>
+            </a>
+            <a class="nav-link d-md-none" href="#">
+                <i class="bi bi-search text-light"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel">C&A</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-grow-1 justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
+                            </a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Mujer</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Hombre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Niños</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Calzado</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="py-5 text-center container background-container d-none d-md-block">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="text-light">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Hombre</font>
+                    </font>
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <app-ropa>
+    </app-ropa>
+</main>
